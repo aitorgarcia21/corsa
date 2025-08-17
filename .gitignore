@@ -1,0 +1,31 @@
+# General
+.DS_Store
+Thumbs.db
+*.log
+*.tmp
+*.swp
+
+# Node / tooling (not used, but safe)
+node_modules/
+.npm/
+.pnpm-store/
+yarn.lock
+package-lock.json
+
+# Build outputs
+/dist/
+/build/
+.out/
+.next/
+.cache/
+public/
+
+# Env / secrets
+.env
+.env.*
+
+# Mac / editor
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace

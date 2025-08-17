@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title data-translate="page-title">Casa Corsa - Restaurant Corse à Porto-Vecchio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Open+Sans:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Language Selector -->
+    <div class="language-selector">
+        <button class="lang-btn active" data-lang="fr">🇫🇷 FR</button>
+        <button class="lang-btn" data-lang="en">🇬🇧 EN</button>
+        <button class="lang-btn" data-lang="es">🇪🇸 ES</button>
+        <button class="lang-btn" data-lang="de">🇩🇪 DE</button>
+    </div>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <img src="logo.png" alt="Casa Corsa Logo" class="logo">
+            </div>
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="#accueil" class="nav-link" data-translate="nav-home">Accueil</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#carte" class="nav-link" data-translate="nav-menu">Notre Carte</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#contact" class="nav-link" data-translate="nav-contact">Contact</a>
+                </li>
+            </ul>
+            <div class="nav-toggle" id="mobile-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="accueil" class="hero">
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <img src="logo.png" alt="Casa Corsa Logo" class="hero-logo">
+            <h1 data-translate="hero-title">Bienvenue à Casa Corsa</h1>
+            <p data-translate="hero-subtitle">Restaurant Corse • Spécialités de Corse • Porto-Vecchio</p>
+            <a href="#carte" class="cta-button" data-translate="hero-cta">Découvrir notre carte</a>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about">
+        <div class="container">
+            <div class="about-content">
+                <h2 data-translate="about-title">L'Art de la Cuisine Corse</h2>
+                <p data-translate="about-text1">Situé au cœur du port de plaisance de Porto-Vecchio, Casa Corsa vous invite à découvrir les saveurs authentiques de la Corse. Notre restaurant vous propose une cuisine traditionnelle revisitée, dans un cadre chaleureux et convivial.</p>
+                <p data-translate="about-text3">Venez déguster nos spécialités préparées avec des produits du terroir corse, dans l'atmosphère conviviale de notre établissement face au port de Porto-Vecchio.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Menu Section -->
+    <section id="carte" class="menu">
+        <div class="container">
+            <h2 data-translate="menu-title">Notre Carte</h2>
+            <p class="menu-subtitle" data-translate="menu-subtitle">Nos spécialités corses authentiques</p>
+            
+            <div class="menu-content">
+                <div class="menu-category">
+                    <h3 data-translate="menu-cat-tasting">Nos Planches de dégustation</h3>
+                    <div class="menu-item">
+                        <span class="item-name">Fritto misto de la mer</span>
+                        <span class="item-price">15,50€</span>
+                    </div>
+                    <div class="menu-item">
+                        <span class="item-name">Planche de charcuterie</span>
+                        <span class="item-price">19,50€</span>
+                    </div>
+                    <div class="menu-item">
+                        <span class="item-name">Planche de charcuterie & fromage</span>
+                        <span class="item-price">23,50€</span>
+                    </div>
+                </div>
+
+                <div class="menu-category">
+                    <h3 data-translate="menu-cat-starters">Nos Entrées</h3>
+                    <div class="menu-item">
+                        <span class="item-name">Salade de chèvre et sa panzeretta grillée</span>
+                        <span class="item-price">16,00€</span>
+                    </div>
+                    <div class="menu-item">
+                        <span class="item-name">Tartine de rougets à la tapenade</span>
+                        <span class="item-price">16,00€</span>
+                    </div>
+                    <div class="menu-item">
+                        <span class="item-name">Salade de poulet mariné</span>
+                        <span class="item-price">15,50€</span>
+                    </div>
+                    <div class="menu-item">
+                        <span class="item-name">Salade de poulpes frais marinés</span>
+                        <span class="item-price">16,50€</span>
+                    </div>
+                    <div class="menu-item">
+                        <span class="item-name">Aubergines farcies façon "Tata Brigitte"</span>
+                        <span class="item-price">18,50€</span>
+                    </div>
+                    <div class="menu-item">
+                        <span class="item-name">Tartare de bœuf classique au couteau</span>
+                        <span class="item-price">26,50€</span>
+                    </div>
+                    <div class="menu-item">
+                        <span class="item-name">Tartare de poisson du jour</span>
+                        <span class="item-price">26,50€</span>
+                    </div>
+                    <div class="menu-item">
+                        <span class="item-name">Salade Casa Corsa</span>
+                        <span class="item-price">17,50€</span>
+                    </div>
+                </div>
+
+                <div class="menu-category">
+                    <h3 data-translate="menu-cat-specialities">Nos Spécialités</h3>
+                    <div class="menu-item">
+                        <span class="item-name">Sanglier à la mode Corse et sa polenta</span>
+                        <span class="item-price">19,00€</span>
+                    </div>
+                    <div class="menu-item">
+                        <span class="item-name">Cannelloni au brocciu, épinards et menthe</span>
+                        <span class="item-price">18,50€</span>
+                    </div>
+                    <div class="menu-item">
+                        <span class="item-name">Sauté de veau Corse aux olives</span>
+                        <span class="item-price">19,00€</span>
+                    </div>
+                    <div class="menu-item">
+                        <span class="item-name">Émincés de poulet au citron</span>
+                        <span class="item-price">21,50€</span>
+                    </div>
+                    <div class="menu-item">
+                        <span class="item-name">Brocciu en feuilleté et salade</span>
+                        <span class="item-price">22,00€</span>
+                    </div>
+                    <div class="menu-item">
+                        <span class="item-name">Côtelette d'agneau grillée au thym</span>
+                        <span class="item-price">28,00€</span>
+                    </div>
+                    <div class="menu-item">
+                        <span class="item-name">Pièce de viande du boucher</span>
+                        <span class="item-price">selon arrivage</span>
+                    </div>
+                    <div class="menu-item">
+                        <span class="item-name">Burger à l'ancienne</span>
+                        <span class="item-price">17,50€</span>
+                    </div>
+                    <div class="menu-item">
+                        <span class="item-name">Aiguillettes de Saint-Pierre</span>
+                        <span class="item-price">26,00€</span>
+                    </div>
+                </div>
+
+                <div class="menu-category">
+                    <h3 data-translate="menu-cat-kids">Pour les Enfants</h3>
+                    <div class="menu-item">
+                        <span class="item-name">Steak haché ou aiguillettes de poulet panées</span>
+                        <span class="item-price">9,50€</span>
+                    </div>
+                </div>
+
+                <div class="menu-category">
+                    <h3 data-translate="menu-cat-desserts">Nos Desserts</h3>
+                    <div class="menu-item">
+                        <span class="item-name">Assiette de fromage Corse</span>
+                        <span class="item-price">13,50€</span>
+                    </div>
+                    <div class="menu-item">
+                        <span class="item-name">Tiramisu à la crème de châtaigne</span>
+                        <span class="item-price">9,50€</span>
+                    </div>
+                    <div class="menu-item">
+                        <span class="item-name">Juste cuit au chocolat</span>
+                        <span class="item-price">8,50€</span>
+                    </div>
+                    <div class="menu-item">
+                        <span class="item-name">Fiadone</span>
+                        <span class="item-price">8,00€</span>
+                    </div>
+                    <div class="menu-item">
+                        <span class="item-name">Salade de fruits frais</span>
+                        <span class="item-price">8,00€</span>
+                    </div>
+                    <div class="menu-item">
+                        <span class="item-name">Gâteau à la châtaigne</span>
+                        <span class="item-price">8,00€</span>
+                    </div>
+                    <div class="menu-item">
+                        <span class="item-name">Profiteroles maison</span>
+                        <span class="item-price">10,50€</span>
+                    </div>
+                    <div class="menu-item">
+                        <span class="item-name">Crème brûlée à la vanille Bourbon</span>
+                        <span class="item-price">9,00€</span>
+                    </div>
+                    <div class="menu-item">
+                        <span class="item-name">Café gourmand</span>
+                        <span class="item-price">10,50€</span>
+                    </div>
+                    <div class="menu-item">
+                        <span class="item-name">Glace artisanale (1 boule)</span>
+                        <span class="item-price">3,00€</span>
+                    </div>
+                    <div class="menu-item">
+                        <span class="item-name">Glace artisanale (2 boules)</span>
+                        <span class="item-price">5,00€</span>
+                    </div>
+                    <div class="menu-item">
+                        <span class="item-name">Glace artisanale (3 boules)</span>
+                        <span class="item-price">8,00€</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Reviews Section -->
+    <section id="avis" class="reviews">
+        <div class="container">
+            <h2 data-translate="reviews-title">Avis clients</h2>
+            <p class="reviews-subtitle" data-translate="reviews-subtitle">Consultez nos avis certifiés sur TripAdvisor</p>
+            <div class="reviews-grid">
+                <blockquote class="review-card">
+                    <p>« Restaurant incroyable ! Service rapide alors qu'il y avait la queue pour manger. Les spécialités corses étaient délicieuses. »</p>
+                    <footer>— Laure R, 14 août 2025</footer>
+                </blockquote>
+                <blockquote class="review-card">
+                    <p>« Très bon restaurant et service au top&nbsp;! Poulet et veau saltimbocca vraiment savoureux. »</p>
+                    <footer>— Ponpon, 14 août 2025</footer>
+                </blockquote>
+                <blockquote class="review-card">
+                    <p>« Super expérience, je recommande&nbsp;! Hamburgers frais, cuisson parfaite, ambiance chaleureuse. »</p>
+                    <footer>— TO, 14 août 2025</footer>
+                </blockquote>
+                <blockquote class="review-card">
+                    <p>« Accueil chaleureux et vue sur le port&nbsp;! Civet de sanglier et veau aux olives excellents. »</p>
+                    <footer>— Avis client, 13 août 2025</footer>
+                </blockquote>
+            </div>
+            <div class="reviews-cta">
+                <a class="cta-button" target="_blank" rel="noopener" href="https://www.tripadvisor.fr/Restaurant_Review-g196484-d12633451-Reviews-A_Casa_Corsa-Porto_Vecchio_Corse_du_Sud_Corsica.html" data-translate="reviews-cta">Lire tous les avis sur TripAdvisor</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 data-translate="contact-title">Contactez-nous</h2>
+            <div class="contact-simple">
+                <p>Port de plaisance, 20137 Porto-Vecchio</p>
+                <p><a href="tel:+33495203887">04 95 20 38 87</a></p>
+                <p><a href="mailto:acasacorsa2017@gmail.com">acasacorsa2017@gmail.com</a></p>
+                <div class="social-simple">
+                    <a href="https://www.instagram.com/casacorsaportovecchio/?hl=fr" target="_blank">Instagram</a>
+                    <a href="https://www.facebook.com/acasacorsaportovecchio" target="_blank">Facebook</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <img src="logo.png" alt="Casa Corsa Logo">
+                </div>
+                <p>&copy; 2024 Casa Corsa - Restaurant Corse à Porto-Vecchio</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
